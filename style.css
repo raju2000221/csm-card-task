@@ -13,13 +13,12 @@ body {
 
 .card-body {
   text-align: center;
-  /* position: relative; */
   max-width: 450px;
   margin: auto;
 }
-.card-body img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.card-body img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .order-summary {
   background-color: #ffffff;
@@ -27,51 +26,66 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.order-summary h1{
-    margin-top: -4px;
-    padding-top: 30px;
+.order-summary h1 {
+  font-family: "Inter", sans-serif;
+  margin-top: -4px;
+  padding-top: 30px;
 }
-.order-summary-description{
-    font-weight: bold;
-    color: rgb(170, 170, 170);
-    padding: 0px 67px;
+.order-summary-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: rgb(170, 170, 170);
+  padding: 0px 67px;
 }
-.annaul-plan{
-    background-color: #a5a5a568;
-    padding: 7px;
-    margin: 25px;
-    border-radius: 10px;
+.annaul-plan {
+  background-color: #e9f3ff68;
+  padding: 7px;
+  margin: 25px;
+  border-radius: 10px;
 }
-.annaul-plan-content{
-    display: flex;
-    align-items: center;
+.annaul-plan a {
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
 }
-.annaul-plan-price p{
-    padding: 0px;
-    margin: 5px;
-
+.annaul-plan-content {
+  display: flex;
+  align-items: center;
 }
-.annaul-plan{
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.annaul-plan-price p {
+  font-family: "Inter", sans-serif;
+  padding: 0px;
+  margin: 5px 5px 5px 15px;
 }
-.proceed-button{
-    text-decoration: none;
-    color: #ffffff;
-    border-radius: 10px;
-    margin:0 25px;
-    padding: 10px 20px;
-    background-color: rgb(76, 76, 250);
+.annaul-plan-price p:first-child {
+  font-weight: 700;
 }
-.proceed-button a{
-    text-decoration: none;
-    color: #ffffff;
+.annaul-plan {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.canel-order{
-    padding: 12px 0 15px 0;
+.proceed-button {
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 0 25px;
+  padding: 15px 25px;
+  background-color: rgb(76, 76, 250);
 }
-.canel-order a{
+.proceed-button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+}
+.canel-order {
+    padding: 20px 0 50px 0;
+}
+.canel-order a {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
   text-decoration: none;
 }
