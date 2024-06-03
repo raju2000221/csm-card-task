@@ -1,28 +1,35 @@
 body {
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e8eeff;
   margin: 0;
   padding: 0;
-  background-color: #e8eeff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-body {
   text-align: center;
-  position: relative;
+  /* position: relative; */
   max-width: 450px;
-  margin: 20px auto 0 auto;
+  margin: auto;
 }
 .card-body img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .order-summary {
-  position: absolute;
   background-color: #ffffff;
   width: 100%;
-  margin-top: -10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+.order-summary h1{
+    margin-top: -4px;
+    padding-top: 30px;
 }
 .order-summary-description{
     font-weight: bold;
@@ -63,7 +70,7 @@ body {
     color: #ffffff;
 }
 .canel-order{
-    margin: 12px 0 15px 0;
+    padding: 12px 0 15px 0;
 }
 .canel-order a{
   text-decoration: none;
